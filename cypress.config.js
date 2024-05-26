@@ -10,6 +10,11 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
+     
     },
   },
 });
+
+//npx cypress run --record --key 86c2c7dc-b23d-4141-be6e-f5e51fd27882
+//CYPRESS_RECORD_KEY 86c2c7dc-b23d-4141-be6e-f5e51fd27882
+//npx cypress run --record
